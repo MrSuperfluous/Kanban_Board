@@ -1,0 +1,52 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin-bottom: 15px; /* Space between cards */
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-id {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #333;
+  }
+  .tags {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .priority-tag {
+    background-color: #f00;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+  
+  .feature-tag {
+    background-color: #eee;
+    color: #555;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+  
